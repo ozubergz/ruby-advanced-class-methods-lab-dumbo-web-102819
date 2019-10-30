@@ -38,5 +38,7 @@ class Song
       song.name == name
     end
   end
+  
+  def self.
 
 end
