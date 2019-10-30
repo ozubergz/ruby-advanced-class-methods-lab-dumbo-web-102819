@@ -48,7 +48,9 @@ class Song
   end
   
   def self.alphabetical
-    binding.pry
+    @@all.sort { |a, b|
+     b.name <=> a.name
+    }
   end
 
 end
