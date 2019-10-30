@@ -63,12 +63,13 @@ class Song
   end
   
   def self.create_from_filename(name)
-    splitted = name.split(/\s+-\s+|.mp3/)
-    song = Song.new
-    song.artist_name = splitted[0]
-    song.name = splitted[1]
-    song.save
-    song
+    self.new_from_filename(name)
+    # splitted = name.split(/\s+-\s+|.mp3/)
+    # song = Song.new
+    # song.artist_name = splitted[0]
+    # song.name = splitted[1]
+    # song.save
+    # song
   end
   
   def self.destroy_all
