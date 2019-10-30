@@ -55,7 +55,6 @@ class Song
   
   def self.new_from_filename(name)
     splitted = name.split(/\s+-\s+|.mp3/)
-    
     song = Song.new
     song.artist_name = splitted[0]
     song.name = splitted[1]
@@ -63,6 +62,8 @@ class Song
     song
   end
   
-  def self.
+  def self.create_from_filename(name)
+    
+  end
 
 end
