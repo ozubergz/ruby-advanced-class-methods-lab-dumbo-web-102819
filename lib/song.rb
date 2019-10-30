@@ -23,7 +23,7 @@ class Song
     binding.pry
     song = self.new
     song.name = name
-    song.name
+    song
   end
 
 end
