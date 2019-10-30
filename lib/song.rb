@@ -52,5 +52,9 @@ class Song
      a.name <=> b.name
     }
   end
+  
+  def self.new_from_filename(name)
+    
+  end
 
 end
