@@ -14,8 +14,8 @@ class Song
   
   def self.create
     # song = self.new
-    # @@all << self
-    self.save
+    @@all << self
+    
   end
   
   # def self.new_by_name(name)
